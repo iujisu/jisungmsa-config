@@ -1,14 +1,2 @@
-datasource:
-  driver-class-name: org.mariadb.jdbc.Driver
-  url: jdbc:mariadb://localhost:3306/company?characterEncoding=UTF-8&serverTimezone=UTC
-  username: root
-  password: 111111
-
-#JPA 사용 시 생성 전략 설정 (create, update, create-drop, validate)
-jpa:
-  hibernate:
-    ddl-auto: update
-  properties:
-      hibernate:
-        format_sql: true  #To beautify or pretty print the SQL #보여지는 쿼리를 정렬해서 보기 좋게 보여줍니다.
-        show_sql: true  #show sql #하이버네이트가 데이터베이스에 요청하는 모든 쿼리를 보여줍니다.
+jisungmsa:
+  value: prod-test-value 2023-04-26 change!!!!!

@@ -1,6 +1,2 @@
-  spring:
-    datasource:
-      driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://localhost:3306/company?characterEncoding=UTF-8&serverTimezone=UTC
-      username: root
-      password: 111111
+jisungmsa:
+  value: user-server-value 2023-05-08 change!!!!!
